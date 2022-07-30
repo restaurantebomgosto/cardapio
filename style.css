@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffffff;
+  
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/fundo.png);
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+  font-family: 'Ubuntu', cursive;
+  font-size: 30px;
+}
+p {
+  margin: 15px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+}
+
+.itens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.itens figure {
+  margin: 10px 20px;
+  border: 1px solid #6D8436;
+}
+
+figcaption {
+  text-align: center;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+#logo{
+  width:230px;
+  height:230px
+}
+
+.nao_valido {
+  font-size: 10px;
+  margin-top: -10px;
+}
